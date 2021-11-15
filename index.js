@@ -58,4 +58,4 @@ function indicwidth(newid, propor) {
         return "Indefinido";
     }
 }
-export factr
+export { factr }
