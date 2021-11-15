@@ -44,7 +44,7 @@ function indicwidth(newid, propor) {
             document.getElementById(nameElement[n]).style.marginTop = (Math.pow(-1, directy)*(parseFloat(document.getElementById(idname).style.height)/2 - event.clientY)*valordeslcy/parseFloat(document.getElementById(idname).style.height) + margN[n][2]) + "%";
         }
     }
-} function factr(value) {
+} let factr = function(value) {
     var factnum = 1;
     for(var l = 1; l <= value + 1; l++) {
         factnum *= l;
@@ -58,3 +58,4 @@ function indicwidth(newid, propor) {
         return "Indefinido";
     }
 }
+export factr
